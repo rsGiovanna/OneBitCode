@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 10px 15px;
+    grid-auto-rows: minmax(310px, auto);
+}
+
+.item{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
