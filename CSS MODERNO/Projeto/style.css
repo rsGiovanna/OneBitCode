@@ -11,10 +11,6 @@
     flex-direction: column;
 }
 
-.logonavbar{
-    width: 180px;
-}
-
 .header{
     width: 100%;
     min-height: 40px;
@@ -25,6 +21,10 @@
     flex-wrap: wrap;
     padding: 30px;
     gap: 8px 15px;
+}
+
+.logonavbar{
+    width: 180px;
 }
 
 .headerbtngroup{
@@ -156,4 +156,32 @@
 .footerAnchor{
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 630px){
+    .gridcontainer{
+        grid-template-areas:
+        "mainconten"
+        "sidebarcontent" ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .sidebarcontent{
+        min-width: auto;
+    }
+    .footerAnchor{
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 463px){
+    .header{
+        justify-content: center;
+    }
+
+    .footer{
+        justify-content: center;
+    }
 }
