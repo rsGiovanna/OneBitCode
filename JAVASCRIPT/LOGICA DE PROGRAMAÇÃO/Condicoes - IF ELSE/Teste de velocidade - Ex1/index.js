@@ -6,9 +6,8 @@ const velocidade_veiculo2 = prompt("Insira a velocidade do segundo veículo: ")
 
 if (velocidade_veiculo1 > velocidade_veiculo2) {
     alert(nome_veiculo1 + " é o veículo mais rápido")
-} else if
-    (velocidade_veiculo1 < velocidade_veiculo2) {
+} else if (velocidade_veiculo1 < velocidade_veiculo2) {
     alert(nome_veiculo2 + " é o veículo mais rápido")
-} else if (velocidade_veiculo1 === velocidade_veiculo2) {
-    alert("Os veículos possuem a mesma velocidade")
+} else{
+    alert(nome_veiculo1 + " " + "e" + " " + nome_veiculo2 + " possuem velocidades iguais")
 }

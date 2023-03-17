@@ -1,6 +1,24 @@
-const nome_poder = prompt("Insira o nome do poder do personagem: ")
-const poder_ataque = prompt("Insira o poder de ataque do personagem: ")
-const nome = prompt("Insira o nome do personagem: ")
-const defesa = prompt("Insira o poder de defesa do outro personagem: ")
-const escudo = prompt("Insira se o personagem possui escudo: ")
+const atacante = prompt("Qual é o nome do personagem atacante?")
+const poderDeAtaque = prompt("Qual é o poder do personagem atacante?")
 
+const defensor = prompt("Qual é o nome do personagem defensor?")
+let pontosDeVida = prompt("Quais são os seus pontos de vida?")
+const poderDeDefesa = prompt("Qual é o seu poder de defesa?")
+const possuiEscudo = prompt("Ele possui um escudo? (Sim/Não)")
+
+let danoCausado = 0
+
+if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Não") {
+    danoCausado = poderDeAtaque - poderDeDefesa
+} else if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Sim") {
+    danoCausado = poderDeAtaque - poderDeDefesa / 2
+}
+
+pontosDeVida -= danoCausado
+
+alert(atacante + " causou " + danoCausado + " pontos de dano em " + defensor)
+alert(
+    atacante + "\nPoder de ataque: " + poderDeAtaque + "\n\n" +
+    defensor + "\nPontos de vida: " + pontosDeVida +
+    "\nPoder de defesa: " + poderDeDefesa + "\nPossui escudo: " + possuiEscudo
+)
