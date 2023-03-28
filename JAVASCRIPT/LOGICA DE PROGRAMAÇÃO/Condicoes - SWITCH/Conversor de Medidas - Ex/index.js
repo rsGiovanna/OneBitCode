@@ -1,6 +1,6 @@
 const valorMetros = prompt("Escreva uma medida em metros: ")
 const unidadeMedida = 
-prompt("\n 1) Milímetro(mm)\n 2) Centímetro(cm)\n 3) Decímetro(dm)\n 4) Decâmetro(dam)\n 5) Hectômetro(hm)\n 6) Quilômetro(km)")
+prompt("Para qual unidade de medida deseja converter?" + "\n 1) Milímetro(mm)\n 2) Centímetro(cm)\n 3) Decímetro(dm)\n 4) Decâmetro(dam)\n 5) Hectômetro(hm)\n 6) Quilômetro(km)")
 
 switch (unidadeMedida) {
     case "1":
