@@ -11,22 +11,22 @@ const unidadeMedida = prompt(
 
 switch (unidadeMedida) {
     case "1":
-        alert("O valor em milímetro(mm) é: " + valorMetros * 1000)
+        alert("O resultado é:  " + valorMetros * 1000 + "mm")
         break
     case "2":
-        alert("O valor em centímetro(cm) é: " + valorMetros * 100)
+        alert("O resultado é:  " + valorMetros * 100 + "cm")
         break
     case "3":
-        alert("O valor em decímetro(dm) é: " + valorMetros * 10)
+        alert("O resultado é:  " + valorMetros * 10 + "dm")
         break
     case "4":
-        alert("O valor em decâmetro(dam) é: " + valorMetros / 10)
+        alert("O resultado é:  " + valorMetros / 10 + "dam")
         break
     case "5":
-        alert("O valor em hectômetro(hm) é: " + valorMetros / 100)
+        alert("O resultado é:  " + valorMetros / 100 + "hm")
         break
     case "6":
-        alert("O valor em quilômetro(km) é: " + valorMetros / 1000)
+        alert("O resultado é:  " + valorMetros / 1000 + "km")
         break
     default:
         alert("Opção inválida")
