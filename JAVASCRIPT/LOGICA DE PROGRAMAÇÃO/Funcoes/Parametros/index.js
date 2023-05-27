@@ -25,15 +25,5 @@ function criarUsuario(nome, email, senha, tipo = "admin") {
     }
     console.log(usuario);
 }
-function novoUsuario(nome, tipo = "admin", email, senha) {
-    const usuario = {
-        nome,
-        email,
-        senha,
-        tipo
-    }
-    console.log(usuario);
-}
 
-criarUsuario("João", "joao@joao", "123");
-novoUsuario("João", "admin", "joao@joao", "123");
+function muitosPrametros(nome, telefone, endereço, aniversario, email, senha)
