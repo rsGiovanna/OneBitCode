@@ -26,10 +26,10 @@ function criarUsuario(nome, email, senha, tipo = "admin") {
     console.log(usuario);
 }
 
-function muitosPrametros(nome, telefone, endereço, aniversario, email, senha){
+function muitosPrametros(nome, telefone, endereço, aniversario, email, senha) {
 
 }
-function objetoComParametro(usuario){
+function objetoComParametro(usuario) {
     usuario.nome
     usuario.telefone
 
