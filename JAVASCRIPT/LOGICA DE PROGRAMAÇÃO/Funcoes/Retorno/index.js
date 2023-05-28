@@ -10,6 +10,11 @@ console.log(resultado)
 function criarProduto(nome, preco){
     const produto ={
         nome,
-        preco
+        preco,
+        estoque: 1
     }
+    return produto
 }
+
+const notebook = criarProduto("Notebook Intel Core i3 8GB", 2500)
+console.log(notebook)
