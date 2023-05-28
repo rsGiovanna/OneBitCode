@@ -16,5 +16,5 @@ function criarProduto(nome, preco){
     return produto
 }
 
-const notebook = criarProduto("Notebook Intel Core i3 8GB", 2500)
-console.log(notebook)
+
+console.log(criarProduto("Notebook Intel Core i3 8GB", 2500))
