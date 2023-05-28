@@ -1,4 +1,4 @@
-let pessoa = {
+/* let pessoa = {
     nome: "João",
     idade: 29,
     dizerOla() {
@@ -13,4 +13,4 @@ let pessoa = {
 
 console.log(pessoa);
 
-pessoa.dizerOla()
+pessoa.dizerOla() */
